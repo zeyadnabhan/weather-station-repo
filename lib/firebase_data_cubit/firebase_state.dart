@@ -4,3 +4,5 @@ part of 'firebase_cubit.dart';
 sealed class FirebaseState {}
 
 final class FirebaseInitial extends FirebaseState {}
+
+final class FirebaseSuccess extends FirebaseState {}
