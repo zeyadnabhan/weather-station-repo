@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class SensorData extends StatelessWidget {
-  
   String title;
   String valueString;
 
@@ -19,7 +18,12 @@ class SensorData extends StatelessWidget {
             children: [
               Padding(
                 padding: const EdgeInsets.only(left: 15, right: 20),
-                child: Text('$title'),
+                child: Text(
+                  '$title',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
               ),
             ],
           ),
